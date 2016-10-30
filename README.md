@@ -4,6 +4,16 @@
 
 # Install
 ```
+# apt-get install python-setuptools python-dev
+# easy_install pip
+# pip install virtualenv
+# apt-get install -y zlib1g-dev libxslt1-dev libxml2-dev
+# apt-get install -y libsasl2-dev libldap2-dev libssl-dev
+# apt-get install -y libtiff5-dev libjpeg8-dev zlib1g-dev libfreetype6-dev liblcms2-dev libwebp-dev 
+# apt-get install -y libpq-dev
+```
+
+```
 $ cd odoomini
 $ virtualenv venv
 $ source venv/bin/activate
