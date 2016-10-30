@@ -12,7 +12,12 @@
 # apt-get install -y libtiff5-dev libjpeg8-dev zlib1g-dev libfreetype6-dev liblcms2-dev libwebp-dev 
 # apt-get install -y libpq-dev
 ```
-
+```
+apt-get install curl -y
+curl -sL https://deb.nodesource.com/setup_6.x | sudo -E bash -
+apt-get install -y nodejs
+npm install -g less less-plugin-clean-css
+```
 ```
 $ cd odoomini
 $ virtualenv venv
