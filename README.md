@@ -37,6 +37,10 @@ db_user = odoo10
 db_password = odoo10
 addons_path = addons
 data_dir = data
+xmlrpc_port = 8069
+xmlrpc_interface = 0.0.0.0
+longpolling_port = 8072
+
 ```
 
 install db
